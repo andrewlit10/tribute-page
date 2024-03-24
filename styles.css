@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    border: 10px solid #1d1e4c;
+    min-height: 100vh;
+}
+img {
+    height: 300px;
+    border-radius: 45%;
+}
+body {
+    background-color: #e5e5fd;
+    
+}
