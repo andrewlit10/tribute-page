@@ -2,16 +2,80 @@
     margin: 0;
     padding: 0;
     
+    box-sizing: border-box;
+    
 }
-html {
-    border: 10px solid #1d1e4c;
+.container {
+    border: 15px solid #1d1e4c;
     min-height: 100vh;
+    
+}
+.content {
+    max-width: 900px;
+    margin: 0 auto;
 }
 img {
-    height: 300px;
-    border-radius: 45%;
+    
+    height: 350px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 100px;
 }
 body {
     background-color: #e5e5fd;
     
+}
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.top-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    
+  }
+  .name-header {
+    margin: 50px;
+  }
+.top-section h4 {
+    text-align: end;
+    padding-top: 10px;
+}
+
+.about-section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.about-section p {
+    padding: 20px 0;
+    line-height: 30px;
+    letter-spacing: 1.2x;
+    text-align: justify;
+}
+.biography-section {
+    margin: 50px 0;
+   
+h3 {
+    font-size: 26px;
+    font-weight: 100px;
+    padding-bottom: 20px;
+}
+ul {
+    margin-left: 25px;
+}
+}
+ul li {
+    font-size: 20px;
+    padding: 5px 0;
+
+}
+footer {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
 }
